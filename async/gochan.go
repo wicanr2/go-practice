@@ -32,7 +32,7 @@ func pong() {
 }
 
 func main() {
-    fmt.Printf("goroutine test\n")
+    fmt.Printf("GOROUTINE PING-PONG Test\n")
     go ping()
     go pong()
     message <- "ping"
